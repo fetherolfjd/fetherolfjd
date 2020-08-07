@@ -2,6 +2,8 @@
 
 I found the secret, I'm ✨ _special_ ✨!!
 
+[![Linkedin Badge](https://img.shields.io/badge/-Justin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fetherolfjd/)](https://www.linkedin.com/in/fetherolfjd/)
+
 <!--
 **fetherolfjd/fetherolfjd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
