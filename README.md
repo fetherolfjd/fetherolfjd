@@ -11,24 +11,9 @@ I currently work as a Senior Software Engineer with Cherokee Nation Technologies
 
 ## Current Personal Projects
 
-### Smart Garage Door
+### Smart Garage Door *Finished*
 
-I've been using the [GoControl Z-Wave Garage Door Controller](https://www.gocontrol.com/detail.php?productId=4) for a number of years in conjuction with
-[Samsung SmartThings Hub](https://www.smartthings.com/products/smartthings-hub) (though an older version of both) with great success. Upon moving to our current home, the
-installed garage door opener is a [Chamberlain MyQ](https://www.chamberlain.com/myq) model which disappointingly does not operate in the same way as a typical
-"dumb" garage door opener. Of course, Chamberlain sells their own "gateway", but it does not natively support integration with SmartThings.
-Instead someone clever has created a [third party integration](https://github.com/brbeaird/SmartThings_MyQ) that may be shut down at any point.
-
-Research has indicated the most common work-around to using the GoControl device with a Chamberlain MyQ opener is to use one of the wireless remote controls
-and connect across one of the buttons with the GoControl, with the idea being to trigger the remote as if a person were pressing the button.
-
-Unfortunately this appears to be a very inconsistent solution. At this time my remote just constantly triggers as if the button is being held down constantly,
-causing the door to repeatedly open and close. Some work with a DMM indicates that the voltage being used in the remote opener circuit is 3V
-(it uses a CR2032 coin battery) but the voltage that is coming back from the wires of the GoControl is right at 1.5V!! My suspicion is that since the voltage
-is right about the mid-point that the circuit expects, the microcontroller on the remote is fluttering between intepreting the button as pressed and unpressed.
-
-My solution for this is to build a voltage booster circuit as described in [this first schematic](https://www.electroschematics.com/one-battery-3-volts-step-boost-converter/). I'm currently in the process of soldering
-the circuit, so TBD if it works!
+Check out all the details [here](https://github.com/fetherolfjd/smart-garage-painful-diy)!
 
 ### Home Network Reconfiguration
 
@@ -37,7 +22,7 @@ For some time I've been disappointed with several aspects of our router:
  - It only allows 64 devices to be assigned a static IP address
  - The admin UI is painfully slow
  - The admin UI will become completely unresponsive and require a reboot
- 
+
 My plan to solve this is to build a pfsense based router. This will allow more flexibility in the administration of the home network since I like to give all "known" devices
 in the home static IPs. It will also free up the current router that is also our WiFi hub to be relocated out of the basement, and for a second (and maybe third)
 AP to be installed to get better coverage through and around the house.
