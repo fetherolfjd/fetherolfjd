@@ -5,10 +5,6 @@
 I am a computer/tech enthusiast working remotely as a software engineer in northern Colorado. When not working or spending time with my family,
 I'll be pecking at a personal tech project, a home improvement project, or mountain biking.
 
-## Professional Experience
-
-I currently work as a Senior Software Engineer with Cherokee Nation Technologies, performing contract work for the U.S. Fish and Wildlife Service. For more details or history, visit [my LinkedIn profile](https://www.linkedin.com/in/fetherolfjd/).
-
 ## Current Personal Projects
 
 ### Smart Garage Door *Finished*
