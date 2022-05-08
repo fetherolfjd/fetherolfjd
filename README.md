@@ -9,6 +9,11 @@ I'll be pecking at a personal tech project, a home improvement project, or mount
 
 ### Smart Garage Door *Finished*
 
+This turned into a bit of a bust. It was working for awhile, but eventually something in the circuit
+died. I think it was the voltage boosting chip. I'm in the process of switching to [Home Assistant][1], which
+has a built in integration with the Chamberlain MyQ service, and that's working great so far, negating the
+need for any of the nonsense I was doing before.
+
 Check out all the details [here](https://github.com/fetherolfjd/smart-garage-painful-diy)!
 
 ### Home Network Reconfiguration
@@ -19,22 +24,16 @@ For some time I've been disappointed with several aspects of our router:
  - The admin UI is painfully slow
  - The admin UI will become completely unresponsive and require a reboot
 
-My plan to solve this is to build a pfsense based router. This will allow more flexibility in the administration of the home network since I like to give all "known" devices
-in the home static IPs. It will also free up the current router that is also our WiFi hub to be relocated out of the basement, and for a second (and maybe third)
-AP to be installed to get better coverage through and around the house.
-
-I'd like to have the pfsense machine installed in a rack with my server, switch, and patch panel, which is making this bit of a longer ordeal since the current rack is only 6U,
-and full. On top of that, appropriate hardware needs to be found that is hopefully power efficient and not complete overkill, even though that's probably where I'll end up.
-This particular project is pretty low priority at the moment since technically our internet works and I can get 2.4 GHz coverage everywhere in the house I need it.
+I've since transitioned to a [Ubiquiti EdgeRouter 6p][2] which is serving well as the home router.
+I've re-purposed the old router to serve as the access point for the home, but it is
+generally dissappointing in this role. The 2.4Ghz coverage is good, but some devices
+periodically lose internet access when connected to that network. The 5GHz network
+coverage is pretty bad anywhere by the basement; which is the location of the WAP.
 
 ### Raspberry Pi
 
-I've recently moved my [Pi-hole](https://pi-hole.net/) installation from a Raspberry Pi 3 to a Ubuntu VM on my FreeNAS server. Now that my Pi 3 is free,
-I'm trying to figure out what to do with it. It was formerly a RetroPie host, however I barely have time to play games in general,
-let alone expand my options with the games from my childhood. Plus I find that the RetroPie experience isn't seamless enough for my kids to manage getting into it and
-into games with my help.
+The Raspberry Pi is back to running [Pi-hole][3].
 
-I'm leaning towards turning it into a weather station, but once again, TBD!
 
 <!--
 **fetherolfjd/fetherolfjd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -50,3 +49,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[1]: <https://www.home-assistant.io> "Home Assistant"
+[2]: <https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-6-port> "Ubiquiti EdgeRouter 6p"
+[3]: <https://pi-hole.net> "Pi-Hole"
