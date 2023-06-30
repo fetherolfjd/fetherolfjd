@@ -1,55 +1,23 @@
-# Welcome!
+# This Isn't Where I Parked My Car
 
-## About Me
+And it isn't where you parked yours, either. Regardless: thanks for stopping by!
 
-I am a computer/tech enthusiast working remotely as a software engineer in northern Colorado. When not working or spending time with my family,
-I'll be pecking at a personal tech project, a home improvement project, or mountain biking.
+## Apropos
 
-## Current Personal Projects
+### Building
 
-### Smart Garage Door *Finished*
+ - A personal interface to Tilt hydrometers: https://github.com/fetherolfjd/leaning-hydro-pi
+ - Things which cannot yet be spoken of....
 
-This turned into a bit of a bust. It was working for awhile, but eventually something in the circuit
-died. I think it was the voltage boosting chip. I'm in the process of switching to [Home Assistant][1], which
-has a built in integration with the Chamberlain MyQ service, and that's working great so far, negating the
-need for any of the nonsense I was doing before.
+### Tinkering
 
-Check out all the details [here](https://github.com/fetherolfjd/smart-garage-painful-diy)!
+ - Home automation can be a tricky beast: https://github.com/fetherolfjd/smart-garage-painful-diy
+ - Windows Gaming VM on Linux host via GPU passthrough
+ - A server running [ansible-nas](https://github.com/davestephens/ansible-nas) which I'm slowly trying to get away from because this just has too much
 
-### Home Network Reconfiguration
+### Playing
 
-For some time I've been disappointed with several aspects of our router:
- - It doesn't get updated regularly
- - It only allows 64 devices to be assigned a static IP address
- - The admin UI is painfully slow
- - The admin UI will become completely unresponsive and require a reboot
-
-I've since transitioned to a [Ubiquiti EdgeRouter 6p][2] which is serving well as the home router.
-I've re-purposed the old router to serve as the access point for the home, but it is
-generally dissappointing in this role. The 2.4Ghz coverage is good, but some devices
-periodically lose internet access when connected to that network. The 5GHz network
-coverage is pretty bad anywhere by the basement; which is the location of the WAP.
-
-### Raspberry Pi
-
-The Raspberry Pi is back to running [Pi-hole][3].
-
-
-<!--
-**fetherolfjd/fetherolfjd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-[1]: <https://www.home-assistant.io> "Home Assistant"
-[2]: <https://store.ui.com/collections/operator-edgemax-routers/products/edgerouter-6-port> "Ubiquiti EdgeRouter 6p"
-[3]: <https://pi-hole.net> "Pi-Hole"
+ - Did you know there is a new edition of Warhammer 40k coming? https://warhammer40000.com/
+   - I don't play actual games of this nearly enough, but I find the universe and story to be so rich and fun!
+   - Also: [BOLTGUN](https://store.steampowered.com/app/2005010/Warhammer_40000_Boltgun/)!!!
+ - Mountain Biking: the activity I most enjoy to try and stay fit
